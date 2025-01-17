@@ -51,5 +51,10 @@ ScrollReveal().reveal(".offer__content .offer__btn", {
     delay:2500,
 });
 
+ScrollReveal().reveal(".service__card",{
+    ...scrollRevealOption,
+    interval:500,
+})
+
 
 
