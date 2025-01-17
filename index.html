@@ -7,6 +7,10 @@
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     rel="stylesheet"/>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -131,8 +135,85 @@
         </div>
     </section>
 
+    <section class="section__container client__container" id="client">
+        <div class="client__image">
+            <img src="assets/client-1.jpg" alt="client">
+        </div>
+        <div class="client__content">
+            <h3 class="section__subheader">TESTIMONIALS</h3>
+            <h2 class="section__header">What our client says</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="client__card">
+                            <p>
+                                The     `1expert-guided tours provided me with an in-depth
+                                understanding of the local culture. Our guide was not only
+                                knowledgeable but also passionate about showcasing the hidden
+                                gems that aren't in the typical tourist guides.
+                            </p>
+                            <div class="client__details">
+                                <img src="assets/user-1.jpg" alt="client">
+                                <div>
+                                    <h4>Robert Change</h4>
+                                    <h5>Software Developer</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="swiper-slide">
+                        <div class="client__card">
+                            <p>
+                                Thanks to the seamless travel planning service, my vacation
+                                was stress-free from start to finish. Everything was organized
+                                meticulously, leaving me with more time to enjoy the
+                                destination without worrying about the details.
+                            </p>
+                            <div class="client__details">
+                                <img src="assets/user-2.jpg" alt="client">
+                                <div>
+                                    <h4>Emily Rodriguez</h4>
+                                    <h5>Financial Analyst</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="client__card">
+                            <p>
+                                The exclusive VIP experiences took my trip to a whole new
+                                level. From skipping lines to enjoying private tours, it was a
+                                luxurious escape. Highly recommend this service for those
+                                looking to add a touch of opulence to their travels.
+                            </p>
+                            
+                            <div class="client__details">
+                                <img src="assets/user-3.jpg" alt="client">
+                                <div>
+                                    <h4>Michael Anderson</h4>
+                                    <h5>Marketing Executive</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                 <div class="client-swiper-btns">
+                    <div class="swiper-prev"><i class="ri-arrow-left-line"></i></div>
+                    <div class="swiper-next"><i class="ri-arrow-right-line"></i></div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 
 </body>
