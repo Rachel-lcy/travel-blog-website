@@ -36,19 +36,19 @@ ScrollReveal().reveal(".offer__content .section__subheader", {
 });
 ScrollReveal().reveal(".offer__content .section__header", {
     ...scrollRevealOption,
-    delay:1000,
+    delay:800,
 });
 ScrollReveal().reveal(".offer__content .section__description", {
     ...scrollRevealOption,
-    delay:1500,
+    delay:1100,
 });
 ScrollReveal().reveal(".offer__content h5, .offer__ratings", {
     ...scrollRevealOption,
-    delay:2000,
+    delay:1500,
 });
 ScrollReveal().reveal(".offer__content .offer__btn", {
     ...scrollRevealOption,
-    delay:2500,
+    delay:2000,
 });
 
 ScrollReveal().reveal(".service__card",{
